@@ -19,8 +19,8 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 | Autor(es) | Repositório original | Principal contribuição incorporada aqui |
 | :--- | :--- | :--- |
 | **Ana Flávia Rodrigues Barcelos Cordeiro** | [`geomodelagem_uenf`](https://github.com/anafrodrigues95-rgc/geomodelagem_uenf) | Base das Partes 1 e 2 (mapas de contexto/uso do solo, dois experimentos YOLO com pasta de resultados), tabela quantitativa da Parte 3, relatório final em PDF e dados brutos Copernicus |
-| **Letícia Raquel Trindade Gonçalves** | [`geomodelagem`](https://github.com/LeticiaRaquel/geomodelagem) | Mapas sazonais individuais em alta resolução (Parte 1) e notebook complementar da Parte 3 |
-| **Lucas Lopes Assad** | [`UENF_LucasAssad`](https://github.com/lucasassad/UENF_LucasAssad) | Discussão crítica sobre as limitações do caráter exploratório da análise integrada (Parte 3) |
+| **Letícia Raquel Trindade Gonçalves** | [`geomodelagem`](https://github.com/leticiagoncalves-ship-it/geomodelagem) | Mapas sazonais individuais em alta resolução (Parte 1) e notebook complementar da Parte 3 |
+| **Lucas Lopes Assad** | [`UENF_LucasAssad`](https://github.com/lucaslopesassad-bit/UENF_LucasAssad) | Discussão crítica sobre as limitações do caráter exploratório da análise integrada (Parte 3) |
 
 ---
 
