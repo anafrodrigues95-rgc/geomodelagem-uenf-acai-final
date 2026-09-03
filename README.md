@@ -2,17 +2,13 @@
 
 Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos três grupos da disciplina, combinando as melhores contribuições de cada equipe em um único material de análise integrada da produção de açaí no Estado do Pará: geoprocessamento, dados meteorológicos, modelagem espacial e visão computacional.
 
----
-
 ## 🎓 Informações Acadêmicas
 
 * **Instituição:** Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)
-* **Laboratório:** LAMET – Laboratório de Meteorologia
+* **Laboratório:** LAMET - Laboratório de Meteorologia
 * **Programa:** Mestrado em Clima e Energia
 * **Disciplina:** GeoModelagem do Potencial Energético e do Microclima Urbano
 * **Professora:** Dra. Raquel Jahara Lobosco
-
----
 
 ## 👥 Autores e Contribuições
 
@@ -26,8 +22,8 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 
 ## 🗺️ Parte 1 – Mapeamento Climático
 
-* 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai.ipynb)](./parte1_mapeamento_climatico/Mapas_acai.ipynb)
-* 🚀 [Clique aqui para abrir a versão alternativa (Parte1GeoModelagem.ipynb)](./parte1_mapeamento_climatico/Parte1GeoModelagem.ipynb)
+> 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai.ipynb)](./parte1_mapeamento_climatico/Mapas_acai.ipynb)  
+> 🚀 [Clique aqui para abrir a versão alternativa (Parte1GeoModelagem.ipynb)](./parte1_mapeamento_climatico/Parte1GeoModelagem.ipynb)
 
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
 
@@ -42,18 +38,16 @@ Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em f
 Foram processados dados meteorológicos da base **Copernicus (ERA5/ERA5-Land)** referentes ao ano de 2024 (horário das 15h). Abaixo estão os mapas sazonais consolidados para cada variável atmosférica:
 
 ### 🌧️ Precipitação ou Índice Pluviométrico
-<img width="100%" alt="Precipitação 4 Estações" src="https://github.com/user-attachments/assets/8b524ed6-4505-4eaf-992b-6c697917175f" />
+<img width="1600" height="1333" alt="Precipitation_4_seasons" src="https://github.com/user-attachments/assets/8b524ed6-4505-4eaf-992b-6c697917175f" />
 
 ### 🌡️ Temperatura do Ar (ºC)
-<img width="100%" alt="Temperatura 4 Estações" src="https://github.com/user-attachments/assets/a9596f08-561b-4f80-b523-d4a8de806cff" />
+<img width="1600" height="1333" alt="Temperature_4_seasons" src="https://github.com/user-attachments/assets/a9596f08-561b-4f80-b523-d4a8de806cff" />
 
 ### 💨 Intensidade do Vento (m/s)
-<img width="100%" alt="Vento 4 Estações" src="https://github.com/user-attachments/assets/ef97590b-bfe5-4ae7-9c34-0e976b6e4d82" />
+<img width="1600" height="1333" alt="Wind_4_seasons" src="https://github.com/user-attachments/assets/ef97590b-bfe5-4ae7-9c34-0e976b6e4d82" />
 
-### 💧 Umidade (%)
-<img width="100%" alt="Umidade 4 Estações" src="https://github.com/user-attachments/assets/c9c8124d-2007-4c37-813e-e7b3db4de977" />
-
----
+### 💧 Umidade Relativa (%)
+<img width="1600" height="1333" alt="Humidity_4_seasons" src="https://github.com/user-attachments/assets/c9c8124d-2007-4c37-813e-e7b3db4de977" />
 
 ### 🔍 Mapas Individuais em Alta Resolução
 Além dos painéis consolidados acima, a pasta abaixo reúne os 16 mapas sazonais individuais (precipitação, temperatura, vento e umidade × 4 estações) em alta resolução, produzidos como complemento à Parte 1:
@@ -78,8 +72,6 @@ Extensão do modelo para um cenário real de triagem fitossanitária, treinado p
 * 🚀 [Clique aqui para abrir o Notebook do Experimento 2](./parte2_visao_computacional_yolo/experimento2_deteccao_acai_barbeiro.ipynb)
 * 📦 [Dataset utilizado (acai.v2-barbeiro-e-acai.yolov11.zip)](./parte2_visao_computacional_yolo/acai.v2-barbeiro-e-acai.yolov11.zip)
 
----
-
 ### 🖼️ Resultados Visuais do YOLO
 
 Os arquivos visuais gerados durante o treinamento, validação e as predições finais dos modelos YOLO estão organizados e salvos diretamente no repositório.
@@ -101,18 +93,17 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 | **Verão** | 4.48 | 30.06 | 68.22 | 2.03 | Baixo |
 | **Outono** | 12.25 | 29.29 | 76.66 | 1.34 | Muito Baixo |
 | **Inverno** | 1.31 | 32.54 | 50.11 | 2.00 | Médio |
-| **Primavera** | 0.32 | 35.11 | 39.63 | 2.38 | **Alto** |
+| **Primavera** | 0.32 | 35.11 | 39.63 | 2.38 | Alto |
 
 ### 📉 Gráfico de Correlação Sazonal
-<img width="100%" alt="Gráfico Clima x Produção" src="https://github.com/user-attachments/assets/36b4c580-171d-473e-9a1a-cc6be94983c0" />
 
----
+<img width="989" height="690" alt="grafico_clima_x_indice_de_producao" src="https://github.com/user-attachments/assets/36b4c580-171d-473e-9a1a-cc6be94983c0" />
 
 ### 📓 Notebooks Complementares
-* 🚀 [Versão alternativa da análise integrada (parte3_repo.ipynb)](./parte3_analise_integrada/parte3_repo.ipynb)
-* 🚀 [Discussão crítica sobre as limitações metodológicas (parte3_discussao_critica.ipynb)](./parte3_analise_integrada/parte3_discussao_critica.ipynb)
+* 🚀 [Clique aqui para abrir a versão alternativa da análise integrada (parte3_repo.ipynb)](./parte3_analise_integrada/parte3_repo.ipynb)
+* 🚀 [Clique aqui para abrir a discussão crítica sobre as limitações metodológicas (parte3_discussao_critica.ipynb)](./parte3_analise_integrada/parte3_discussao_critica.ipynb)
 
-> 💡 **Nota sobre a discussão crítica:** Esta discussão aborda o caráter exploratório da análise: as médias climáticas utilizadas são estimativas de reanálise (modelo), não medições de campo, o que limita conclusões causais diretas entre clima e produtividade do açaí.
+> Esta discussão aborda o caráter exploratório da análise: as médias climáticas utilizadas são estimativas de reanálise (modelo), não medições de campo, o que limita conclusões causais diretas entre clima e produtividade do açaí.
 
 ---
 
@@ -120,7 +111,7 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 
 O relatório final detalhado com toda a fundamentação teórica, metodologia e análise aprofundada dos resultados foi gerado em formato PDF e pode ser consultado na documentação do projeto.
 
-👉 [Clique aqui para acessar o Relatório Final Completo (PDF)](./relatorio_final/Ana_Flavia_Rodrigues_e_Rayane_Souza_Relatorio_de_Geomodelagem.pdf)
+👉 **[Clique aqui para acessar o Relatório Final Completo (PDF)](./relatorio_final/Ana_Flavia_Rodrigues_e_Rayane_Souza_Relatorio_de_Geomodelagem.pdf)**
 
 ---
 
@@ -136,17 +127,14 @@ Os arquivos `.nc` (NetCDF) originais, referentes às variáveis de superfície d
 
 Todos os scripts foram desenvolvidos para serem executados no ambiente virtual do **Google Colab** com suporte a GPU (T4):
 
-1. **Parte 1 (Mapas):** abra o arquivo `Mapas_acai.ipynb` no Colab. Certifique-se de instalar as dependências de geoprocessamento (`pip install cartopy xarray netcdf4 h5netcdf cdsapi`) e configurar o seu token da API do Copernicus no arquivo `.cdsapirc`.
-2. **Parte 2 (YOLO):** os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` realizam a instalação automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
-3. **Parte 3 (Análise Integrada):** requer os resultados climáticos da Parte 1 já processados.
-
----
+1. **Parte 1 (Mapas):** Abra o arquivo `Mapas_acai.ipynb` ou `Parte1GeoModelagem.ipynb` na pasta `parte1_mapeamento_climatico` no Colab. Certifique-se de instalar as dependências de geoprocessamento (`pip install cartopy xarray netcdf4 h5netcdf cdsapi`) e configurar o seu token da API do Copernicus no arquivo `.cdsapirc`.
+2. **Parte 2 (YOLO):** Os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` na pasta `parte2_visao_computacional_yolo` realizam a instalação automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
+3. **Parte 3 (Análise Integrada):** Requer os resultados climáticos da Parte 1 já processados para execução dos notebooks na pasta `parte3_analise_integrada`.
 
 ## 📊 Acesso ao Dataset
 
 O banco de dados contendo as imagens anotadas e as máscaras de segmentação foi estruturado e hospedado publicamente na plataforma **Roboflow**.
-
-Os notebooks da **Parte 2** já contêm a linha de código parametrizada com o ID do projeto para baixar e extrair o dataset automaticamente (`açai-2`) direto para o diretório de treino do modelo, garantindo a perfeita reprodução dos experimentos fitossanitários.
+* Os notebooks da **Parte 2** já contêm a linha de código parametrizada com o ID do projeto para baixar e extrair o dataset automaticamente (`açai-2`) direto para o diretório de treino do modelo, garantindo a perfeita reprodução dos experimentos fitossanitários.
 
 ---
 
