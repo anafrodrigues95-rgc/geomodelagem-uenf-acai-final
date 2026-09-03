@@ -32,19 +32,20 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
 
 ### 📍 Área de Estudo e Cobertura da Terra
-
-### 📍 Área de Estudo e Cobertura da Terra
 Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
 
 <p align="center">
-  <img src="parte1_mapeamento_climatico/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
-  <img src="parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
+  <a href="parte1_mapeamento_climatico/contexto_area_de_estudo/Regiao_produtora.jpeg">
+    <img src="parte1_mapeamento_climatico/contexto_area_de_estudo/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
+  </a>
+  <a href="parte1_mapeamento_climatico/contexto_area_de_estudo/Mapa_usoecobertura.jpeg">
+    <img src="parte1_mapeamento_climatico/contexto_area_de_estudo/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
+  </a>
 </p>
-* 📁 [Caminho do arquivo: Região Produtora (`Regiao_produtora.jpg`)](Regiao_produtora.jpg)
-* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpg`)](Mapa_usoecobertura.jpg)
 
----
-
+* 📁 [Caminho do arquivo: Região Produtora (`Regiao_produtora.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Regiao_produtora.jpeg)
+* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Mapa_usoecobertura.jpeg)
+* 
 ### 🖼️ Painéis Sazonais Consolidados (ERA5-Land 2024)
 
 ### 🌧️ Precipitação ou Índice Pluviométrico
