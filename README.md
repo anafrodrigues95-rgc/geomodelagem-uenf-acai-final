@@ -31,14 +31,21 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
 
----
+### 📍 Área de Estudo e Cobertura da Terra
 
-### 📍 Área de Estudo, Cobertura do Solo e Mapas Individuais
+Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
 
-Para evitar falhas de carregamento visual no navegador decorrentes de extensões ou nomes de arquivos com caracteres especiais no repositório, **todos os mapas de localização, uso do solo e as 16 pranchas individuais de alta resolução** estão organizados diretamente na pasta da Parte 1:
+<p align="center">
+  <a href="./parte1_mapeamento_climatico/Regiao_produtora.jpeg">
+    <img src="./parte1_mapeamento_climatico/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
+  </a>
+  <a href="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg">
+    <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
+  </a>
+</p>
 
-* 📁 [**Clique aqui para abrir a pasta de Mapas de Localização e Uso do Solo**](./parte1_mapeamento_climatico/)
-* 📁 [**Clique aqui para abrir a pasta com todos os 16 Mapas Sazonais Individuais em Alta Resolução**](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/)
+* 📁 [Caminho do arquivo: Região Produtora (`./parte1_mapeamento_climatico/Regiao_produtora.jpeg`)](./parte1_mapeamento_climatico/Regiao_produtora.jpeg)
+* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg`)](./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg)
 
 ---
 
@@ -55,6 +62,16 @@ Para evitar falhas de carregamento visual no navegador decorrentes de extensões
 
 ### 💧 Umidade (%)
 <img width="100%" alt="Umidade 4 Estações" src="https://github.com/user-attachments/assets/c9c8124d-2007-4c37-813e-e7b3db4de977" />
+
+---
+
+### 🔍 Mapas Sazonais Individuais em Alta Resolução
+
+As 16 pranchas individuais em alta resolução (4 variáveis × 4 estações do ano) desenvolvidas no mapeamento georreferenciado foram salvas no repositório. 
+
+Para visualizar ou baixar qualquer uma das imagens individuais de forma direta:
+
+👉 **[Clique aqui para acessar e visualizar todas as imagens individuais na pasta (`./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/`)](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/)**
 
 ---
 
@@ -133,7 +150,7 @@ Os arquivos `.nc` (NetCDF) originais, referentes às variáveis de superfície d
 Todos os scripts foram desenvolvidos para serem executados no ambiente virtual do **Google Colab** com suporte a GPU (T4):
 
 1. **Parte 1 (Mapas):** abra o arquivo `Mapas_acai.ipynb` no Colab. Certifique-se de instalar as dependências de geoprocessamento (`pip install cartopy xarray netcdf4 h5netcdf cdsapi`) e configurar o seu token da API do Copernicus no arquivo `.cdsapirc`.
-2. **Parte 2 (YOLO):** os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` realizam a instalação automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
+2. **Parte 2 (YOLO):** os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` realizam a installation automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
 3. **Parte 3 (Análise Integrada):** requer os resultados climáticos da Parte 1 já processados.
 
 ---
