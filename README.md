@@ -26,7 +26,7 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 
 ## 🗺️ Parte 1 – Mapeamento Climático
 
-* 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai (2).ipynb)](./parte1_mapeamento_climatico/mapas_consolidados/Mapas_acai (2).ipynb)
+* 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai(2).ipynb)](./parte1_mapeamento_climatico/mapas_consolidados/Mapas_acai(2).ipynb)
 * 🚀 [Clique aqui para abrir a versão alternativa (Parte1GeoModelagem.ipynb)](./parte1_mapeamento_climatico/mapas_em_destaque/Parte1GeoModelagem.ipynb)
 
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
