@@ -33,17 +33,13 @@ Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará util
 
 ### 📍 Área de Estudo e Cobertura da Terra
 
+### 📍 Área de Estudo e Cobertura da Terra
 Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
 
 <p align="center">
-  <a href="Regiao_produtora.jpg">
-    <img src="Regiao_produtora.jpg" width="45%" alt="Região Produtora"/>
-  </a>
-  <a href="Mapa_usoecobertura.jpg">
-    <img src="Mapa_usoecobertura.jpg" width="45%" alt="Uso e Cobertura da Terra"/>
-  </a>
+  <img src="parte1_mapeamento_climatico/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
+  <img src="parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
 </p>
-
 * 📁 [Caminho do arquivo: Região Produtora (`Regiao_produtora.jpg`)](Regiao_produtora.jpg)
 * 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpg`)](Mapa_usoecobertura.jpg)
 
