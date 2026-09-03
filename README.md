@@ -36,16 +36,16 @@ Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará util
 Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
 
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/Regiao_produtora.jpeg">
-    <img src="./parte1_mapeamento_climatico/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
+  <a href="./parte1_mapeamento_climatico/Regiao_produtora.jpg">
+    <img src="./parte1_mapeamento_climatico/Regiao_produtora.jpg" width="45%" alt="Região Produtora"/>
   </a>
-  <a href="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg">
-    <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
+  <a href="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg">
+    <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg" width="45%" alt="Uso e Cobertura da Terra"/>
   </a>
 </p>
 
-* 📁 [Caminho do arquivo: Região Produtora (`./parte1_mapeamento_climatico/Regiao_produtora.jpeg`)](./parte1_mapeamento_climatico/Regiao_produtora.jpeg)
-* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg`)](./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg)
+* 📁 [Caminho do arquivo: Região Produtora (`./parte1_mapeamento_climatico/Regiao_produtora.jpg`)](./parte1_mapeamento_climatico/Regiao_produtora.jpg)
+* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg`)](./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg)
 
 ---
 
@@ -65,13 +65,65 @@ Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em f
 
 ---
 
-### 🔍 Mapas Sazonais Individuais em Alta Resolução
+### 🎨 Mapas Sazonais Individuais em Alta Resolução
 
-As 16 pranchas individuais em alta resolução (4 variáveis × 4 estações do ano) desenvolvidas no mapeamento georreferenciado foram salvas no repositório. 
+Abaixo estão exibidos separadamente os mapas individuais em alta resolução desenvolvidos para a visualização detalhada de cada variável por estação do ano:
 
-Para visualizar ou baixar qualquer uma das imagens individuais de forma direta:
+**🌧️ Precipitação**
+<p align="center">
+  <a href="./parte1_mapeamento_climatico/prec_verao.png"><img src="./parte1_mapeamento_climatico/prec_verao.png" width="45%" alt="Precipitação Verão"/></a>
+  <a href="./parte1_mapeamento_climatico/prec_outono.png"><img src="./parte1_mapeamento_climatico/prec_outono.png" width="45%" alt="Precipitação Outono"/></a>
+  <br/>
+  <a href="./parte1_mapeamento_climatico/prec_inverno.png"><img src="./parte1_mapeamento_climatico/prec_inverno.png" width="45%" alt="Precipitação Inverno"/></a>
+  <a href="./parte1_mapeamento_climatico/prec_primavera.png"><img src="./parte1_mapeamento_climatico/prec_primavera.png" width="45%" alt="Precipitação Primavera"/></a>
+</p>
 
-👉 **[Clique aqui para acessar e visualizar todas as imagens individuais na pasta (`./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/`)](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/)**
+* 📁 [Precipitação Verão (`./parte1_mapeamento_climatico/prec_verao.png`)](./parte1_mapeamento_climatico/prec_verao.png)
+* 📁 [Precipitação Outono (`./parte1_mapeamento_climatico/prec_outono.png`)](./parte1_mapeamento_climatico/prec_outono.png)
+* 📁 [Precipitação Inverno (`./parte1_mapeamento_climatico/prec_inverno.png`)](./parte1_mapeamento_climatico/prec_inverno.png)
+* 📁 [Precipitação Primavera (`./parte1_mapeamento_climatico/prec_primavera.png`)](./parte1_mapeamento_climatico/prec_primavera.png)
+
+**🌡️ Temperatura do Ar**
+<p align="center">
+  <a href="./parte1_mapeamento_climatico/temp_verao.png"><img src="./parte1_mapeamento_climatico/temp_verao.png" width="45%" alt="Temperatura Verão"/></a>
+  <a href="./parte1_mapeamento_climatico/temp_outono.png"><img src="./parte1_mapeamento_climatico/temp_outono.png" width="45%" alt="Temperatura Outono"/></a>
+  <br/>
+  <a href="./parte1_mapeamento_climatico/temp_inverno.png"><img src="./parte1_mapeamento_climatico/temp_inverno.png" width="45%" alt="Temperatura Inverno"/></a>
+  <a href="./parte1_mapeamento_climatico/temp_primavera.png"><img src="./parte1_mapeamento_climatico/temp_primavera.png" width="45%" alt="Temperatura Primavera"/></a>
+</p>
+
+* 📁 [Temperatura Verão (`./parte1_mapeamento_climatico/temp_verao.png`)](./parte1_mapeamento_climatico/temp_verao.png)
+* 📁 [Temperatura Outono (`./parte1_mapeamento_climatico/temp_outono.png`)](./parte1_mapeamento_climatico/temp_outono.png)
+* 📁 [Temperatura Inverno (`./parte1_mapeamento_climatico/temp_inverno.png`)](./parte1_mapeamento_climatico/temp_inverno.png)
+* 📁 [Temperatura Primavera (`./parte1_mapeamento_climatico/temp_primavera.png`)](./parte1_mapeamento_climatico/temp_primavera.png)
+
+**💨 Vento**
+<p align="center">
+  <a href="./parte1_mapeamento_climatico/vento_verao.png"><img src="./parte1_mapeamento_climatico/vento_verao.png" width="45%" alt="Vento Verão"/></a>
+  <a href="./parte1_mapeamento_climatico/vento_outono.png"><img src="./parte1_mapeamento_climatico/vento_outono.png" width="45%" alt="Vento Outono"/></a>
+  <br/>
+  <a href="./parte1_mapeamento_climatico/vento_inverno.png"><img src="./parte1_mapeamento_climatico/vento_inverno.png" width="45%" alt="Vento Inverno"/></a>
+  <a href="./parte1_mapeamento_climatico/vento_primavera.png"><img src="./parte1_mapeamento_climatico/vento_primavera.png" width="45%" alt="Vento Primavera"/></a>
+</p>
+
+* 📁 [Vento Verão (`./parte1_mapeamento_climatico/vento_verao.png`)](./parte1_mapeamento_climatico/vento_verao.png)
+* 📁 [Vento Outono (`./parte1_mapeamento_climatico/vento_outono.png`)](./parte1_mapeamento_climatico/vento_outono.png)
+* 📁 [Vento Inverno (`./parte1_mapeamento_climatico/vento_inverno.png`)](./parte1_mapeamento_climatico/vento_inverno.png)
+* 📁 [Vento Primavera (`./parte1_mapeamento_climatico/vento_primavera.png`)](./parte1_mapeamento_climatico/vento_primavera.png)
+
+**💧 Umidade Relativa**
+<p align="center">
+  <a href="./parte1_mapeamento_climatico/umidade_verao.png"><img src="./parte1_mapeamento_climatico/umidade_verao.png" width="45%" alt="Umidade Verão"/></a>
+  <a href="./parte1_mapeamento_climatico/umidade_outono.png"><img src="./parte1_mapeamento_climatico/umidade_outono.png" width="45%" alt="Umidade Outono"/></a>
+  <br/>
+  <a href="./parte1_mapeamento_climatico/umidade_inverno.png"><img src="./parte1_mapeamento_climatico/umidade_inverno.png" width="45%" alt="Umidade Inverno"/></a>
+  <a href="./parte1_mapeamento_climatico/umidade_primavera.png"><img src="./parte1_mapeamento_climatico/umidade_primavera.png" width="45%" alt="Umidade Primavera"/></a>
+</p>
+
+* 📁 [Umidade Verão (`./parte1_mapeamento_climatico/umidade_verao.png`)](./parte1_mapeamento_climatico/umidade_verao.png)
+* 📁 [Umidade Outono (`./parte1_mapeamento_climatico/umidade_outono.png`)](./parte1_mapeamento_climatico/umidade_outono.png)
+* 📁 [Umidade Inverno (`./parte1_mapeamento_climatico/umidade_inverno.png`)](./parte1_mapeamento_climatico/umidade_inverno.png)
+* 📁 [Umidade Primavera (`./parte1_mapeamento_climatico/umidade_primavera.png`)](./parte1_mapeamento_climatico/umidade_primavera.png)
 
 ---
 
@@ -150,7 +202,7 @@ Os arquivos `.nc` (NetCDF) originais, referentes às variáveis de superfície d
 Todos os scripts foram desenvolvidos para serem executados no ambiente virtual do **Google Colab** com suporte a GPU (T4):
 
 1. **Parte 1 (Mapas):** abra o arquivo `Mapas_acai.ipynb` no Colab. Certifique-se de instalar as dependências de geoprocessamento (`pip install cartopy xarray netcdf4 h5netcdf cdsapi`) e configurar o seu token da API do Copernicus no arquivo `.cdsapirc`.
-2. **Parte 2 (YOLO):** os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` realizam a installation automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
+2. **Parte 2 (YOLO):** os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` realizam a instalação automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
 3. **Parte 3 (Análise Integrada):** requer os resultados climáticos da Parte 1 já processados.
 
 ---
