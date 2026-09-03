@@ -35,24 +35,71 @@ Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em f
   <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
 </p>
 
-Foram processados dados meteorológicos da base **Copernicus (ERA5/ERA5-Land)** referentes ao ano de 2024 (horário das 15h). Abaixo estão os mapas sazonais consolidados para cada variável atmosférica:
+Foram processados dados meteorológicos da base **Copernicus (ERA5/ERA5-Land)** referentes ao ano de 2024 (horário das 15h).
 
-### 🌧️ Precipitação ou Índice Pluviométrico
+---
+
+### 🖼️ Painéis Sazonais Consolidados
+
+#### 🌧️ Precipitação ou Índice Pluviométrico
 <img width="1600" height="1333" alt="Precipitation_4_seasons" src="https://github.com/user-attachments/assets/8b524ed6-4505-4eaf-992b-6c697917175f" />
 
-### 🌡️ Temperatura do Ar (ºC)
+#### 🌡️ Temperatura do Ar (ºC)
 <img width="1600" height="1333" alt="Temperature_4_seasons" src="https://github.com/user-attachments/assets/a9596f08-561b-4f80-b523-d4a8de806cff" />
 
-### 💨 Intensidade do Vento (m/s)
+#### 💨 Intensidade do Vento (m/s)
 <img width="1600" height="1333" alt="Wind_4_seasons" src="https://github.com/user-attachments/assets/ef97590b-bfe5-4ae7-9c34-0e976b6e4d82" />
 
-### 💧 Umidade Relativa (%)
+#### 💧 Umidade Relativa (%)
 <img width="1600" height="1333" alt="Humidity_4_seasons" src="https://github.com/user-attachments/assets/c9c8124d-2007-4c37-813e-e7b3db4de977" />
 
-### 🔍 Mapas Individuais em Alta Resolução
-Além dos painéis consolidados acima, a pasta abaixo reúne os 16 mapas sazonais individuais (precipitação, temperatura, vento e umidade × 4 estações) em alta resolução, produzidos como complemento à Parte 1:
+---
 
-* 📁 [Clique aqui para acessar a pasta de mapas individuais em alta resolução](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao)
+### 🎨 Mapas Sazonais Individuais em Alta Resolução (Contribuição: Letícia & Rafael)
+
+Abaixo estão exibidos separadamente os mapas individuais em alta resolução desenvolvidos pela equipe da Letícia Raquel e do Rafael Menezes, permitindo a visualização detalhada de cada variável por estação do ano:
+
+#### 🌧️ Precipitação
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/precipitacao_verao.png" width="48%" alt="Precipitação Verão"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/precipitacao_outono.png" width="48%" alt="Precipitação Outono"/>
+</p>
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/precipitacao_inverno.png" width="48%" alt="Precipitação Inverno"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/precipitacao_primavera.png" width="48%" alt="Precipitação Primavera"/>
+</p>
+
+#### 🌡️ Temperatura do Ar
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/temperatura_verao.png" width="48%" alt="Temperatura Verão"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/temperatura_outono.png" width="48%" alt="Temperatura Outono"/>
+</p>
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/temperatura_inverno.png" width="48%" alt="Temperatura Inverno"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/temperatura_primavera.png" width="48%" alt="Temperatura Primavera"/>
+</p>
+
+#### 💨 Vento
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/vento_verao.png" width="48%" alt="Vento Verão"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/vento_outono.png" width="48%" alt="Vento Outono"/>
+</p>
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/vento_inverno.png" width="48%" alt="Vento Inverno"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/vento_primavera.png" width="48%" alt="Vento Primavera"/>
+</p>
+
+#### 💧 Umidade Relativa
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/umidade_verao.png" width="48%" alt="Umidade Verão"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/umidade_outono.png" width="48%" alt="Umidade Outono"/>
+</p>
+<p align="center">
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/umidade_inverno.png" width="48%" alt="Umidade Inverno"/>
+  <img src="./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/umidade_primavera.png" width="48%" alt="Umidade Primavera"/>
+</p>
+
+* 📁 [Clique aqui para acessar diretamente a pasta de arquivos em alta resolução](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao)
 
 ---
 
@@ -64,13 +111,11 @@ Aplicação de visão computacional utilizando a biblioteca **YOLO/Ultralytics**
 Focado no treinamento da rede para identificação precisa das estruturas do fruto e dos cachos de açaí em condições ideais e ambientes agrícolas.
 * **Modelo Utilizado:** YOLO11l-seg (Large)
 * 🚀 [Clique aqui para abrir o Notebook do Experimento 1](./parte2_visao_computacional_yolo/experimento1_segmentacao_acai.ipynb)
-* 📦 [Dataset utilizado (acai.v1i.yolov11.zip)](./parte2_visao_computacional_yolo/acai.v1i.yolov11.zip)
 
 ### 🪲 Experimento 2: Detecção Multiclasse (Açaí + Barbeiro)
 Extensão do modelo para um cenário real de triagem fitossanitária, treinado para realizar a detecção simultânea das estruturas do fruto e do inseto vetor (*triatomíneo/barbeiro*) em fundos complexos, aplicando penalização na função de perda para lidar com o desbalanceamento de classes.
 * **Modelo Utilizado:** YOLO11m-seg (Medium)
 * 🚀 [Clique aqui para abrir o Notebook do Experimento 2](./parte2_visao_computacional_yolo/experimento2_deteccao_acai_barbeiro.ipynb)
-* 📦 [Dataset utilizado (acai.v2-barbeiro-e-acai.yolov11.zip)](./parte2_visao_computacional_yolo/acai.v2-barbeiro-e-acai.yolov11.zip)
 
 ### 🖼️ Resultados Visuais do YOLO
 
@@ -93,7 +138,7 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 | **Verão** | 4.48 | 30.06 | 68.22 | 2.03 | Baixo |
 | **Outono** | 12.25 | 29.29 | 76.66 | 1.34 | Muito Baixo |
 | **Inverno** | 1.31 | 32.54 | 50.11 | 2.00 | Médio |
-| **Primavera** | 0.32 | 35.11 | 39.63 | 2.38 | Alto |
+| **Primavera** | 0.32 | 35.11 | 39.63 | 2.38 | **Alto** |
 
 ### 📉 Gráfico de Correlação Sazonal
 
@@ -103,7 +148,7 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 * 🚀 [Clique aqui para abrir a versão alternativa da análise integrada (parte3_repo.ipynb)](./parte3_analise_integrada/parte3_repo.ipynb)
 * 🚀 [Clique aqui para abrir a discussão crítica sobre as limitações metodológicas (parte3_discussao_critica.ipynb)](./parte3_analise_integrada/parte3_discussao_critica.ipynb)
 
-> Esta discussão aborda o caráter exploratório da análise: as médias climáticas utilizadas são estimativas de reanálise (modelo), não medições de campo, o que limita conclusões causais diretas entre clima e produtividade do açaí.
+> 💡 **Nota sobre a discussão crítica:** Esta discussão aborda o caráter exploratório da análise: as médias climáticas utilizadas são estimativas de reanálise (modelo), não medições de campo, o que limita conclusões causais diretas entre clima e produtividade do açaí.
 
 ---
 
@@ -130,6 +175,8 @@ Todos os scripts foram desenvolvidos para serem executados no ambiente virtual d
 1. **Parte 1 (Mapas):** Abra o arquivo `Mapas_acai.ipynb` ou `Parte1GeoModelagem.ipynb` na pasta `parte1_mapeamento_climatico` no Colab. Certifique-se de instalar as dependências de geoprocessamento (`pip install cartopy xarray netcdf4 h5netcdf cdsapi`) e configurar o seu token da API do Copernicus no arquivo `.cdsapirc`.
 2. **Parte 2 (YOLO):** Os notebooks `experimento1_segmentacao_acai.ipynb` e `experimento2_deteccao_acai_barbeiro.ipynb` na pasta `parte2_visao_computacional_yolo` realizam a instalação automatizada da biblioteca `ultralytics` e o download das imagens via Roboflow. Basta executar as células sequencialmente.
 3. **Parte 3 (Análise Integrada):** Requer os resultados climáticos da Parte 1 já processados para execução dos notebooks na pasta `parte3_analise_integrada`.
+
+---
 
 ## 📊 Acesso ao Dataset
 
