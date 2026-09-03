@@ -31,15 +31,18 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
 
-### 📍 Área de Estudo e Cobertura da Terra
-Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
+---
 
-<p align="center">
-  <img src="./parte1_mapeamento_climatico/Regiao_produtora.jpeg" width="45%" alt="Região Produtora"/>
-  <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpeg" width="45%" alt="Uso e Cobertura da Terra"/>
-</p>
+### 📍 Área de Estudo, Cobertura do Solo e Mapas Individuais
 
-Foram processados dados meteorológicos da base **Copernicus (ERA5/ERA5-Land)** referentes ao ano de 2024 (horário das 15h). Abaixo estão os mapas sazonais consolidados para cada variável atmosférica:
+Para evitar falhas de carregamento visual no navegador decorrentes de extensões ou nomes de arquivos com caracteres especiais no repositório, **todos os mapas de localização, uso do solo e as 16 pranchas individuais de alta resolução** estão organizados diretamente na pasta da Parte 1:
+
+* 📁 [**Clique aqui para abrir a pasta de Mapas de Localização e Uso do Solo**](./parte1_mapeamento_climatico/)
+* 📁 [**Clique aqui para abrir a pasta com todos os 16 Mapas Sazonais Individuais em Alta Resolução**](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao/)
+
+---
+
+### 🖼️ Painéis Sazonais Consolidados (ERA5-Land 2024)
 
 ### 🌧️ Precipitação ou Índice Pluviométrico
 <img width="100%" alt="Precipitação 4 Estações" src="https://github.com/user-attachments/assets/8b524ed6-4505-4eaf-992b-6c697917175f" />
@@ -52,13 +55,6 @@ Foram processados dados meteorológicos da base **Copernicus (ERA5/ERA5-Land)** 
 
 ### 💧 Umidade (%)
 <img width="100%" alt="Umidade 4 Estações" src="https://github.com/user-attachments/assets/c9c8124d-2007-4c37-813e-e7b3db4de977" />
-
----
-
-### 🔍 Mapas Individuais em Alta Resolução
-Os 16 mapas sazonais individuais em alta resolução (precipitação, temperatura, vento e umidade para cada uma das 4 estações) desenvolvidos durante o mapeamento foram disponibilizados em diretório próprio para consulta detalhada.
-
-* 📁 [Clique aqui para acessar a pasta de mapas individuais em alta resolução](./parte1_mapeamento_climatico/mapas_individuais_alta_resolucao)
 
 ---
 
