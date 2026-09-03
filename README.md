@@ -26,22 +26,22 @@ Este repositório reúne, de forma consolidada, os trabalhos desenvolvidos por t
 │   ├── Mapas_acai.ipynb                          # notebook principal (mapas + contexto da área)
 │   ├── Regiao_produtora.jpeg / Mapa_usoecobertura.jpeg
 │   ├── Precipitacao_4_estacoes.jpeg, Temperatura_..., Vento_..., Umidade_...
-│   ├── Parte1GeoModelagem_repo_leticia_rafael.ipynb   # versão alternativa
+│   ├── Parte1GeoModelagem.ipynb   # versão alternativa
 │   └── imagens_individuais_alta_res/              # 16 mapas sazonais separados, alta resolução
 │
 ├── parte2_visao_computacional_yolo/
 │   ├── experimento1_segmentacao_acai.ipynb        # YOLO11l-seg, classe única
 │   ├── experimento2_deteccao_acai_barbeiro.ipynb  # YOLO11m-seg, multiclasse
 │   ├── acai.v1i.yolov11.zip / acai.v2-barbeiro-e-acai.yolov11.zip  # datasets
-│   └── resultados/                                # curvas de treino, matriz de confusão, predições
+│   └── Resultados/                                # curvas de treino, matriz de confusão, predições
 │
 ├── parte3_analise_integrada/
 │   ├── grafico_clima_x_indice_de_producao.png     # gráfico com dados reais ERA5-Land 2024
-│   ├── parte3_repo_leticia_rafael.ipynb           # versão alternativa da análise
-│   └── parte3_discussao_critica_lucas.ipynb       # discussão sobre limitações metodológicas
+│   ├── parte3_repo.ipynb           # versão alternativa da análise
+│   └── parte3_discussao_critica.ipynb       # discussão sobre limitações metodológicas
 │
 ├── relatorio_final/
-│   └── Ana Flávia Rodrigues e Rayane Souza - Relatório de Geomodelagem.pdf
+│   └── Relatório de Geomodelagem.pdf
 │
 └── dados_brutos_copernicus/
     └── arquivos .nc (ERA5-Land, variáveis de superfície)
