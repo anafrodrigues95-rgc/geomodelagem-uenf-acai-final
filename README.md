@@ -26,8 +26,8 @@ Este repositório reúne, de forma consolidada, o trabalho desenvolvido pelos tr
 
 ## 🗺️ Parte 1 – Mapeamento Climático
 
-* 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai.ipynb)](./parte1_mapeamento_climatico/Mapas_acai.ipynb)
-* 🚀 [Clique aqui para abrir a versão alternativa (Parte1GeoModelagem.ipynb)](./parte1_mapeamento_climatico/Parte1GeoModelagem.ipynb)
+* 🚀 [Clique aqui para abrir o Notebook principal da Parte 1 (Mapas_acai.ipynb)](./Mapas_acai.ipynb)
+* 🚀 [Clique aqui para abrir a versão alternativa (Parte1GeoModelagem.ipynb)](./Parte1GeoModelagem.ipynb)
 
 Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará utilizando a biblioteca **Cartopy** em Python, destacando a principal região produtora de açaí (Igarapé-Miri, Cametá, Abaetetuba e entorno).
 
@@ -36,16 +36,16 @@ Nesta etapa, foram criados os mapas climáticos sazonais do Estado do Pará util
 Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em foco e o respectivo mapeamento de uso e cobertura do solo:
 
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/Regiao_produtora.jpg">
-    <img src="./parte1_mapeamento_climatico/Regiao_produtora.jpg" width="45%" alt="Região Produtora"/>
+  <a href="Regiao_produtora.jpg">
+    <img src="Regiao_produtora.jpg" width="45%" alt="Região Produtora"/>
   </a>
-  <a href="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg">
-    <img src="./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg" width="45%" alt="Uso e Cobertura da Terra"/>
+  <a href="Mapa_usoecobertura.jpg">
+    <img src="Mapa_usoecobertura.jpg" width="45%" alt="Uso e Cobertura da Terra"/>
   </a>
 </p>
 
-* 📁 [Caminho do arquivo: Região Produtora (`./parte1_mapeamento_climatico/Regiao_produtora.jpg`)](./parte1_mapeamento_climatico/Regiao_produtora.jpg)
-* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg`)](./parte1_mapeamento_climatico/Mapa_usoecobertura.jpg)
+* 📁 [Caminho do arquivo: Região Produtora (`Regiao_produtora.jpg`)](Regiao_produtora.jpg)
+* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpg`)](Mapa_usoecobertura.jpg)
 
 ---
 
@@ -71,59 +71,59 @@ Abaixo estão exibidos separadamente os mapas individuais em alta resolução de
 
 **🌧️ Precipitação**
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/prec_verao.png"><img src="./parte1_mapeamento_climatico/prec_verao.png" width="45%" alt="Precipitação Verão"/></a>
-  <a href="./parte1_mapeamento_climatico/prec_outono.png"><img src="./parte1_mapeamento_climatico/prec_outono.png" width="45%" alt="Precipitação Outono"/></a>
+  <a href="prec_verao.png"><img src="prec_verao.png" width="45%" alt="Precipitação Verão"/></a>
+  <a href="prec_outono.png"><img src="prec_outono.png" width="45%" alt="Precipitação Outono"/></a>
   <br/>
-  <a href="./parte1_mapeamento_climatico/prec_inverno.png"><img src="./parte1_mapeamento_climatico/prec_inverno.png" width="45%" alt="Precipitação Inverno"/></a>
-  <a href="./parte1_mapeamento_climatico/prec_primavera.png"><img src="./parte1_mapeamento_climatico/prec_primavera.png" width="45%" alt="Precipitação Primavera"/></a>
+  <a href="prec_inverno.png"><img src="prec_inverno.png" width="45%" alt="Precipitação Inverno"/></a>
+  <a href="prec_primavera.png"><img src="prec_primavera.png" width="45%" alt="Precipitação Primavera"/></a>
 </p>
 
-* 📁 [Precipitação Verão (`./parte1_mapeamento_climatico/prec_verao.png`)](./parte1_mapeamento_climatico/prec_verao.png)
-* 📁 [Precipitação Outono (`./parte1_mapeamento_climatico/prec_outono.png`)](./parte1_mapeamento_climatico/prec_outono.png)
-* 📁 [Precipitação Inverno (`./parte1_mapeamento_climatico/prec_inverno.png`)](./parte1_mapeamento_climatico/prec_inverno.png)
-* 📁 [Precipitação Primavera (`./parte1_mapeamento_climatico/prec_primavera.png`)](./parte1_mapeamento_climatico/prec_primavera.png)
+* 📁 [Precipitação Verão (`prec_verao.png`)](prec_verao.png)
+* 📁 [Precipitação Outono (`prec_outono.png`)](prec_outono.png)
+* 📁 [Precipitação Inverno (`prec_inverno.png`)](prec_inverno.png)
+* 📁 [Precipitação Primavera (`prec_primavera.png`)](prec_primavera.png)
 
 **🌡️ Temperatura do Ar**
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/temp_verao.png"><img src="./parte1_mapeamento_climatico/temp_verao.png" width="45%" alt="Temperatura Verão"/></a>
-  <a href="./parte1_mapeamento_climatico/temp_outono.png"><img src="./parte1_mapeamento_climatico/temp_outono.png" width="45%" alt="Temperatura Outono"/></a>
+  <a href="temp_verao.png"><img src="temp_verao.png" width="45%" alt="Temperatura Verão"/></a>
+  <a href="temp_outono.png"><img src="temp_outono.png" width="45%" alt="Temperatura Outono"/></a>
   <br/>
-  <a href="./parte1_mapeamento_climatico/temp_inverno.png"><img src="./parte1_mapeamento_climatico/temp_inverno.png" width="45%" alt="Temperatura Inverno"/></a>
-  <a href="./parte1_mapeamento_climatico/temp_primavera.png"><img src="./parte1_mapeamento_climatico/temp_primavera.png" width="45%" alt="Temperatura Primavera"/></a>
+  <a href="temp_inverno.png"><img src="temp_inverno.png" width="45%" alt="Temperatura Inverno"/></a>
+  <a href="temp_primavera.png"><img src="temp_primavera.png" width="45%" alt="Temperatura Primavera"/></a>
 </p>
 
-* 📁 [Temperatura Verão (`./parte1_mapeamento_climatico/temp_verao.png`)](./parte1_mapeamento_climatico/temp_verao.png)
-* 📁 [Temperatura Outono (`./parte1_mapeamento_climatico/temp_outono.png`)](./parte1_mapeamento_climatico/temp_outono.png)
-* 📁 [Temperatura Inverno (`./parte1_mapeamento_climatico/temp_inverno.png`)](./parte1_mapeamento_climatico/temp_inverno.png)
-* 📁 [Temperatura Primavera (`./parte1_mapeamento_climatico/temp_primavera.png`)](./parte1_mapeamento_climatico/temp_primavera.png)
+* 📁 [Temperatura Verão (`temp_verao.png`)](temp_verao.png)
+* 📁 [Temperatura Outono (`temp_outono.png`)](temp_outono.png)
+* 📁 [Temperatura Inverno (`temp_inverno.png`)](temp_inverno.png)
+* 📁 [Temperatura Primavera (`temp_primavera.png`)](temp_primavera.png)
 
 **💨 Vento**
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/vento_verao.png"><img src="./parte1_mapeamento_climatico/vento_verao.png" width="45%" alt="Vento Verão"/></a>
-  <a href="./parte1_mapeamento_climatico/vento_outono.png"><img src="./parte1_mapeamento_climatico/vento_outono.png" width="45%" alt="Vento Outono"/></a>
+  <a href="vento_verao.png"><img src="vento_verao.png" width="45%" alt="Vento Verão"/></a>
+  <a href="vento_outono.png"><img src="vento_outono.png" width="45%" alt="Vento Outono"/></a>
   <br/>
-  <a href="./parte1_mapeamento_climatico/vento_inverno.png"><img src="./parte1_mapeamento_climatico/vento_inverno.png" width="45%" alt="Vento Inverno"/></a>
-  <a href="./parte1_mapeamento_climatico/vento_primavera.png"><img src="./parte1_mapeamento_climatico/vento_primavera.png" width="45%" alt="Vento Primavera"/></a>
+  <a href="vento_inverno.png"><img src="vento_inverno.png" width="45%" alt="Vento Inverno"/></a>
+  <a href="vento_primavera.png"><img src="vento_primavera.png" width="45%" alt="Vento Primavera"/></a>
 </p>
 
-* 📁 [Vento Verão (`./parte1_mapeamento_climatico/vento_verao.png`)](./parte1_mapeamento_climatico/vento_verao.png)
-* 📁 [Vento Outono (`./parte1_mapeamento_climatico/vento_outono.png`)](./parte1_mapeamento_climatico/vento_outono.png)
-* 📁 [Vento Inverno (`./parte1_mapeamento_climatico/vento_inverno.png`)](./parte1_mapeamento_climatico/vento_inverno.png)
-* 📁 [Vento Primavera (`./parte1_mapeamento_climatico/vento_primavera.png`)](./parte1_mapeamento_climatico/vento_primavera.png)
+* 📁 [Vento Verão (`vento_verao.png`)](vento_verao.png)
+* 📁 [Vento Outono (`vento_outono.png`)](vento_outono.png)
+* 📁 [Vento Inverno (`vento_inverno.png`)](vento_inverno.png)
+* 📁 [Vento Primavera (`vento_primavera.png`)](vento_primavera.png)
 
 **💧 Umidade Relativa**
 <p align="center">
-  <a href="./parte1_mapeamento_climatico/umidade_verao.png"><img src="./parte1_mapeamento_climatico/umidade_verao.png" width="45%" alt="Umidade Verão"/></a>
-  <a href="./parte1_mapeamento_climatico/umidade_outono.png"><img src="./parte1_mapeamento_climatico/umidade_outono.png" width="45%" alt="Umidade Outono"/></a>
+  <a href="umidade_verao.png"><img src="umidade_verao.png" width="45%" alt="Umidade Verão"/></a>
+  <a href="umidade_outono.png"><img src="umidade_outono.png" width="45%" alt="Umidade Outono"/></a>
   <br/>
-  <a href="./parte1_mapeamento_climatico/umidade_inverno.png"><img src="./parte1_mapeamento_climatico/umidade_inverno.png" width="45%" alt="Umidade Inverno"/></a>
-  <a href="./parte1_mapeamento_climatico/umidade_primavera.png"><img src="./parte1_mapeamento_climatico/umidade_primavera.png" width="45%" alt="Umidade Primavera"/></a>
+  <a href="umidade_inverno.png"><img src="umidade_inverno.png" width="45%" alt="Umidade Inverno"/></a>
+  <a href="umidade_primavera.png"><img src="umidade_primavera.png" width="45%" alt="Umidade Primavera"/></a>
 </p>
 
-* 📁 [Umidade Verão (`./parte1_mapeamento_climatico/umidade_verao.png`)](./parte1_mapeamento_climatico/umidade_verao.png)
-* 📁 [Umidade Outono (`./parte1_mapeamento_climatico/umidade_outono.png`)](./parte1_mapeamento_climatico/umidade_outono.png)
-* 📁 [Umidade Inverno (`./parte1_mapeamento_climatico/umidade_inverno.png`)](./parte1_mapeamento_climatico/umidade_inverno.png)
-* 📁 [Umidade Primavera (`./parte1_mapeamento_climatico/umidade_primavera.png`)](./parte1_mapeamento_climatico/umidade_primavera.png)
+* 📁 [Umidade Verão (`umidade_verao.png`)](umidade_verao.png)
+* 📁 [Umidade Outono (`umidade_outono.png`)](umidade_outono.png)
+* 📁 [Umidade Inverno (`umidade_inverno.png`)](umidade_inverno.png)
+* 📁 [Umidade Primavera (`umidade_primavera.png`)](umidade_primavera.png)
 
 ---
 
@@ -134,14 +134,14 @@ Aplicação de visão computacional utilizando a biblioteca **YOLO/Ultralytics**
 ### 🟣 Experimento 1: Segmentação de Classe Única (Açaí)
 Focado no treinamento da rede para identificação precisa das estruturas do fruto e dos cachos de açaí em condições ideais e ambientes agrícolas.
 * **Modelo Utilizado:** YOLO11l-seg (Large)
-* 🚀 [Clique aqui para abrir o Notebook do Experimento 1](./parte2_visao_computacional_yolo/experimento1_segmentacao_acai.ipynb)
-* 📦 [Dataset utilizado (acai.v1i.yolov11.zip)](./parte2_visao_computacional_yolo/acai.v1i.yolov11.zip)
+* 🚀 [Clique aqui para abrir o Notebook do Experimento 1](../parte2_visao_computacional_yolo/experimento1_segmentacao_acai.ipynb)
+* 📦 [Dataset utilizado (acai.v1i.yolov11.zip)](../parte2_visao_computacional_yolo/acai.v1i.yolov11.zip)
 
 ### 🪲 Experimento 2: Detecção Multiclasse (Açaí + Barbeiro)
 Extensão do modelo para um cenário real de triagem fitossanitária, treinado para realizar a detecção simultânea das estruturas do fruto e do inseto vetor (*triatomíneo/barbeiro*) em fundos complexos, aplicando penalização na função de perda para lidar com o desbalanceamento de classes.
 * **Modelo Utilizado:** YOLO11m-seg (Medium)
-* 🚀 [Clique aqui para abrir o Notebook do Experimento 2](./parte2_visao_computacional_yolo/experimento2_deteccao_acai_barbeiro.ipynb)
-* 📦 [Dataset utilizado (acai.v2-barbeiro-e-acai.yolov11.zip)](./parte2_visao_computacional_yolo/acai.v2-barbeiro-e-acai.yolov11.zip)
+* 🚀 [Clique aqui para abrir o Notebook do Experimento 2](../parte2_visao_computacional_yolo/experimento2_deteccao_acai_barbeiro.ipynb)
+* 📦 [Dataset utilizado (acai.v2-barbeiro-e-acai.yolov11.zip)](../parte2_visao_computacional_yolo/acai.v2-barbeiro-e-acai.yolov11.zip)
 
 ---
 
@@ -149,7 +149,7 @@ Extensão do modelo para um cenário real de triagem fitossanitária, treinado p
 
 Os arquivos visuais gerados durante o treinamento, validação e as predições finais dos modelos YOLO estão organizados e salvos diretamente no repositório.
 
-* 📁 [Clique aqui para acessar a pasta com os gráficos de treino, matriz de confusão e predições](./parte2_visao_computacional_yolo/resultados)
+* 📁 [Clique aqui para acessar a pasta com os gráficos de treino, matriz de confusão e predições](../parte2_visao_computacional_yolo/resultados)
 
 Nesta pasta você encontrará a evolução das curvas de perda (`results.png`), a matriz de confusão para análise de erros e acertos, e exemplos de imagens de teste com as máscaras de segmentação aplicadas no açaí e no barbeiro.
 
@@ -174,8 +174,8 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 ---
 
 ### 📓 Notebooks Complementares
-* 🚀 [Versão alternativa da análise integrada (parte3_repo.ipynb)](./parte3_analise_integrada/parte3_repo.ipynb)
-* 🚀 [Discussão crítica sobre as limitações metodológicas (parte3_discussao_critica.ipynb)](./parte3_analise_integrada/parte3_discussao_critica.ipynb)
+* 🚀 [Versão alternativa da análise integrada (parte3_repo.ipynb)](../parte3_analise_integrada/parte3_repo.ipynb)
+* 🚀 [Discussão crítica sobre as limitações metodológicas (parte3_discussao_critica.ipynb)](../parte3_analise_integrada/parte3_discussao_critica.ipynb)
 
 > 💡 **Nota sobre a discussão crítica:** Esta discussão aborda o caráter exploratório da análise: as médias climáticas utilizadas são estimativas de reanálise (modelo), não medições de campo, o que limita conclusões causais diretas entre clima e produtividade do açaí.
 
@@ -185,7 +185,7 @@ Abaixo apresenta-se a tabela comparativa correlacionando os dados meteorológico
 
 O relatório final detalhado com toda a fundamentação teórica, metodologia e análise aprofundada dos resultados foi gerado em formato PDF e pode ser consultado na documentação do projeto.
 
-👉 [Clique aqui para acessar o Relatório Final Completo (PDF)](./relatorio_final/Ana_Flavia_Rodrigues_e_Rayane_Souza_Relatorio_de_Geomodelagem.pdf)
+👉 [Clique aqui para acessar o Relatório Final Completo (PDF)](../relatorio_final/Ana_Flavia_Rodrigues_e_Rayane_Souza_Relatorio_de_Geomodelagem.pdf)
 
 ---
 
@@ -193,7 +193,7 @@ O relatório final detalhado com toda a fundamentação teórica, metodologia e 
 
 Os arquivos `.nc` (NetCDF) originais, referentes às variáveis de superfície do ERA5-Land utilizadas no processamento da Parte 1, estão disponibilizados para fins de reprodutibilidade:
 
-* 📁 [Clique aqui para acessar os dados brutos Copernicus](./dados_brutos_copernicus)
+* 📁 [Clique aqui para acessar os dados brutos Copernicus](../dados_brutos_copernicus)
 
 ---
 
