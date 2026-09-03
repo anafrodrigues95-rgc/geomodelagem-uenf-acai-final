@@ -44,8 +44,8 @@ Abaixo apresenta-se a delimitação da região produtora do Baixo Tocantins em f
   </a>
 </p>
 
-* 📁 [Caminho do arquivo: Região Produtora (`Regiao_produtora.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Regiao_produtora.jpeg)
-* 📁 [Caminho do arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Mapa_usoecobertura.jpeg)
+* 📁 [Clique aqui para abrir o arquivo: Região Produtora (`Regiao_produtora.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Regiao_produtora.jpeg)
+* 📁 [Clique aqui para abrir o arquivo: Uso e Cobertura do Solo (`Mapa_usoecobertura.jpeg`)](parte1_mapeamento_climatico/contexto_area_de_estudo/Mapa_usoecobertura.jpeg)
 
 ---
 
