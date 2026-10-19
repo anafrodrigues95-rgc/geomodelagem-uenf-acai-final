@@ -1,0 +1,230 @@
+{
+  "model": "yolo11s-seg.pt",
+  "seed": 3,
+  "weights": "/content/drive/MyDrive/artigo_acai/resultados_yolo/runs/yolo11s-seg_seed3/weights/best.pt",
+  "train_dir": "/content/drive/MyDrive/artigo_acai/resultados_yolo/runs/yolo11s-seg_seed3",
+  "epochs_run": 174,
+  "best_epoch": 124,
+  "val": {
+    "global": {
+      "box": {
+        "P": 0.6745415680584745,
+        "R": 0.5789473684210527,
+        "mAP50": 0.5928617031315851,
+        "mAP50_95": 0.37045555861127244
+      },
+      "mask": {
+        "P": 0.7295011373795064,
+        "R": 0.6115288220551378,
+        "mAP50": 0.6208438189633775,
+        "mAP50_95": 0.3458899242048682
+      }
+    },
+    "per_class": {
+      "acai": {
+        "box": {
+          "P": 0.513330150167432,
+          "R": 0.3333333333333333,
+          "AP50": 0.3409640384159106,
+          "AP50_95": 0.1565875023639775
+        },
+        "mask": {
+          "P": 0.6021828216281925,
+          "R": 0.38095238095238093,
+          "AP50": 0.37830378200565423,
+          "AP50_95": 0.21636854016706758
+        }
+      },
+      "triatomineo": {
+        "box": {
+          "P": 0.8357529859495171,
+          "R": 0.8245614035087719,
+          "AP50": 0.8447593678472597,
+          "AP50_95": 0.5843236148585673
+        },
+        "mask": {
+          "P": 0.8568194531308203,
+          "R": 0.8421052631578947,
+          "AP50": 0.8633838559211008,
+          "AP50_95": 0.4754113082426688
+        }
+      }
+    },
+    "save_dir": "/content/drive/MyDrive/artigo_acai/resultados_yolo/runs/yolo11s-seg_seed3_val",
+    "confusion_matrix": [
+      [
+        11,
+        1,
+        901
+      ],
+      [
+        1,
+        54,
+        568
+      ],
+      [
+        9,
+        2,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "acai",
+      "triatomineo",
+      "background"
+    ]
+  },
+  "test": {
+    "global": {
+      "box": {
+        "P": 0.7243292871966259,
+        "R": 0.5844155844155844,
+        "mAP50": 0.6045531939238487,
+        "mAP50_95": 0.36204570343888504
+      },
+      "mask": {
+        "P": 0.7193134220228662,
+        "R": 0.588474025974026,
+        "mAP50": 0.6008337263418072,
+        "mAP50_95": 0.3190998350973971
+      }
+    },
+    "per_class": {
+      "acai": {
+        "box": {
+          "P": 0.6561196811998034,
+          "R": 0.45454545454545453,
+          "AP50": 0.4640457078615595,
+          "AP50_95": 0.24803309575711996
+        },
+        "mask": {
+          "P": 0.5883625530197755,
+          "R": 0.4090909090909091,
+          "AP50": 0.3886320346320346,
+          "AP50_95": 0.16639087301587302
+        }
+      },
+      "triatomineo": {
+        "box": {
+          "P": 0.7925388931934485,
+          "R": 0.7142857142857143,
+          "AP50": 0.7450606799861379,
+          "AP50_95": 0.4760583111206502
+        },
+        "mask": {
+          "P": 0.8502642910259569,
+          "R": 0.7678571428571429,
+          "AP50": 0.8130354180515798,
+          "AP50_95": 0.47180879717892105
+        }
+      }
+    },
+    "save_dir": "/content/drive/MyDrive/artigo_acai/resultados_yolo/runs/yolo11s-seg_seed3_test",
+    "confusion_matrix": [
+      [
+        13,
+        1,
+        610
+      ],
+      [
+        2,
+        51,
+        639
+      ],
+      [
+        7,
+        4,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "acai",
+      "triatomineo",
+      "background"
+    ]
+  },
+  "fn_audit_test": {
+    "0.1": {
+      "TP": 43,
+      "FN": 13,
+      "FP": 67,
+      "missed": [
+        "00016_inat_237959210_423567423_jpg_jpg.rf.98147661c5fa66b74a0ade29.jpg",
+        "00025_inat_377729609_690775455_jpg_jpg.rf.92c096747c3b199a510815d6.jpg",
+        "00032_inat_32761330_51407433_jpg_jpg.rf.b4a9d87cfaa31c77aa6c29d6df.jpg",
+        "00033_inat_227019334_402689358_jpg_jpg.rf.5b594848c098c3067542dcee.jpg",
+        "00039_inat_21524820_33310771_jpg_jpg.rf.6092c60147eb672634f20ce2fc.jpg",
+        "00041_A_ANOTAR-BARBEIRO__inat_147767770_254327908_jpg_jpg.rf.b91aa.jpg",
+        "00043_inat_187497455_327908389_jpg_jpg.rf.df4df224e690e197392a6e73.jpg",
+        "00045_Os_Segredos_do_Inseto_Barbeiro_02_png_jpg.rf.1d8ae283134f3f4.jpg",
+        "00061_A_ANOTAR-BARBEIRO__inat_99993493_166821354_jpg_jpg.rf.c22d9f.jpg",
+        "00065_WhatsApp-Image-2026-07-03-at-11-37-44_jpeg_jpg.rf.b9acfe8583.jpg"
+      ],
+      "recall": 0.7678571428571429,
+      "precision": 0.39090909090909093
+    },
+    "0.25": {
+      "TP": 41,
+      "FN": 15,
+      "FP": 38,
+      "missed": [
+        "00016_inat_237959210_423567423_jpg_jpg.rf.98147661c5fa66b74a0ade29.jpg",
+        "00025_inat_377729609_690775455_jpg_jpg.rf.92c096747c3b199a510815d6.jpg",
+        "00032_inat_32761330_51407433_jpg_jpg.rf.b4a9d87cfaa31c77aa6c29d6df.jpg",
+        "00033_inat_227019334_402689358_jpg_jpg.rf.5b594848c098c3067542dcee.jpg",
+        "00039_inat_21524820_33310771_jpg_jpg.rf.6092c60147eb672634f20ce2fc.jpg",
+        "00040_inat_303319932_546694012_jpg_jpg.rf.6a0c13911eef7ea7e3c37c27.jpg",
+        "00041_A_ANOTAR-BARBEIRO__inat_147767770_254327908_jpg_jpg.rf.b91aa.jpg",
+        "00043_inat_187497455_327908389_jpg_jpg.rf.df4df224e690e197392a6e73.jpg",
+        "00045_Os_Segredos_do_Inseto_Barbeiro_02_png_jpg.rf.1d8ae283134f3f4.jpg",
+        "00054_inat_404850000_743534416_jpg_jpg.rf.c6e2a18238b11329a0dc596c.jpg",
+        "00061_A_ANOTAR-BARBEIRO__inat_99993493_166821354_jpg_jpg.rf.c22d9f.jpg",
+        "00065_WhatsApp-Image-2026-07-03-at-11-37-44_jpeg_jpg.rf.b9acfe8583.jpg"
+      ],
+      "recall": 0.7321428571428571,
+      "precision": 0.5189873417721519
+    },
+    "0.4": {
+      "TP": 41,
+      "FN": 15,
+      "FP": 23,
+      "missed": [
+        "00016_inat_237959210_423567423_jpg_jpg.rf.98147661c5fa66b74a0ade29.jpg",
+        "00025_inat_377729609_690775455_jpg_jpg.rf.92c096747c3b199a510815d6.jpg",
+        "00032_inat_32761330_51407433_jpg_jpg.rf.b4a9d87cfaa31c77aa6c29d6df.jpg",
+        "00033_inat_227019334_402689358_jpg_jpg.rf.5b594848c098c3067542dcee.jpg",
+        "00039_inat_21524820_33310771_jpg_jpg.rf.6092c60147eb672634f20ce2fc.jpg",
+        "00040_inat_303319932_546694012_jpg_jpg.rf.6a0c13911eef7ea7e3c37c27.jpg",
+        "00041_A_ANOTAR-BARBEIRO__inat_147767770_254327908_jpg_jpg.rf.b91aa.jpg",
+        "00043_inat_187497455_327908389_jpg_jpg.rf.df4df224e690e197392a6e73.jpg",
+        "00045_Os_Segredos_do_Inseto_Barbeiro_02_png_jpg.rf.1d8ae283134f3f4.jpg",
+        "00054_inat_404850000_743534416_jpg_jpg.rf.c6e2a18238b11329a0dc596c.jpg",
+        "00061_A_ANOTAR-BARBEIRO__inat_99993493_166821354_jpg_jpg.rf.c22d9f.jpg",
+        "00065_WhatsApp-Image-2026-07-03-at-11-37-44_jpeg_jpg.rf.b9acfe8583.jpg"
+      ],
+      "recall": 0.7321428571428571,
+      "precision": 0.640625
+    },
+    "0.5": {
+      "TP": 41,
+      "FN": 15,
+      "FP": 10,
+      "missed": [
+        "00016_inat_237959210_423567423_jpg_jpg.rf.98147661c5fa66b74a0ade29.jpg",
+        "00025_inat_377729609_690775455_jpg_jpg.rf.92c096747c3b199a510815d6.jpg",
+        "00032_inat_32761330_51407433_jpg_jpg.rf.b4a9d87cfaa31c77aa6c29d6df.jpg",
+        "00033_inat_227019334_402689358_jpg_jpg.rf.5b594848c098c3067542dcee.jpg",
+        "00039_inat_21524820_33310771_jpg_jpg.rf.6092c60147eb672634f20ce2fc.jpg",
+        "00040_inat_303319932_546694012_jpg_jpg.rf.6a0c13911eef7ea7e3c37c27.jpg",
+        "00041_A_ANOTAR-BARBEIRO__inat_147767770_254327908_jpg_jpg.rf.b91aa.jpg",
+        "00043_inat_187497455_327908389_jpg_jpg.rf.df4df224e690e197392a6e73.jpg",
+        "00045_Os_Segredos_do_Inseto_Barbeiro_02_png_jpg.rf.1d8ae283134f3f4.jpg",
+        "00054_inat_404850000_743534416_jpg_jpg.rf.c6e2a18238b11329a0dc596c.jpg",
+        "00061_A_ANOTAR-BARBEIRO__inat_99993493_166821354_jpg_jpg.rf.c22d9f.jpg",
+        "00065_WhatsApp-Image-2026-07-03-at-11-37-44_jpeg_jpg.rf.b9acfe8583.jpg"
+      ],
+      "recall": 0.7321428571428571,
+      "precision": 0.803921568627451
+    }
+  }
+}

@@ -1,0 +1,6 @@
+names:
+- a-ai
+- barbeiro
+nc: 2
+train: train/images
+val: train/images

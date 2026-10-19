@@ -1,0 +1,51 @@
+{
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "ultralytics": "8.4.182",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "models_initial_weights": [
+    "yolo11s-seg.pt"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs_max": 300,
+  "patience": 50,
+  "imgsz": 640,
+  "batch": 16,
+  "hyperparameters": {
+    "fliplr": 0.5,
+    "degrees": 15,
+    "hsv_v": 0.15,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "close_mosaic": 10,
+    "optimizer": "auto",
+    "cos_lr": true
+  },
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "split_seed": 42,
+  "holdout_sources": [],
+  "dedupe_augmented": true,
+  "sources": {
+    "acai_artigo_final": "/content/datasets/acai_artigo_final"
+  },
+  "class_names": [
+    "acai",
+    "triatomineo"
+  ],
+  "selection_criterion": "best.pt = maior fitness na validação (0.1*mAP50 + 0.9*mAP50-95, caixa+máscara; padrão Ultralytics)",
+  "eval_conf": 0.001,
+  "eval_iou": 0.6,
+  "fn_audit_iou": 0.5
+}

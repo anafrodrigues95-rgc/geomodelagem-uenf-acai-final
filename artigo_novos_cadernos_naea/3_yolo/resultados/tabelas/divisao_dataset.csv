@@ -1,0 +1,4 @@
+particao,imagens,grupos,inst_acai,imgs_acai,inst_triatomineo,imgs_triatomineo
+train,385,385,108,75,269,247
+val,81,81,21,15,57,52
+test,81,81,22,15,56,52

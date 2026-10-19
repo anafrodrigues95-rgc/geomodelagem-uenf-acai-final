@@ -1,0 +1,6 @@
+model,seed,epochs_run,best_epoch
+yolo11s-seg.pt,0,233,183
+yolo11s-seg.pt,1,213,163
+yolo11s-seg.pt,2,189,139
+yolo11s-seg.pt,3,174,124
+yolo11s-seg.pt,4,172,122
